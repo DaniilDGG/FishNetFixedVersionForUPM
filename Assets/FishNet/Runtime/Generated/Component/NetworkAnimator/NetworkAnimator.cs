@@ -1,4 +1,4 @@
-#if UNITY_EDITOR || DEVELOPMENT_BUILD
+#if UNITY_EDITOR || DEVELOPMENT_BUILD || FISHNET_SERVER_DEBUG
 #define DEVELOPMENT
 #endif
 using FishNet.Component.Transforming;
